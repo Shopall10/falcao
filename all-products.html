@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todos os Produtos - ShopAll</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="imagens/DALL·E 2024-09-20 23.57.08 - A very simple and minimalistic logo design featuring an 'S' in the center, using a color palette of purple and cream. Below the 'S', the text 'Shop_Al.webp" alt="Logo da ShopAll"></a>
+        </div>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul id="nav-links">
+              
+                <li><a href="admin-login.html">Área do Administrador</a></li>
+                <li><a href="settings.html">Configurações</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <!-- Área de Pesquisa -->
+        <div id="search-bar">
+            <input type="text" placeholder="Pesquisar produtos...">
+            <button>Pesquisar</button>
+        </div>
+    </header>
+
+
+    <!-- Área Principal -->
+    <main>
+        <!-- Produtos Disponíveis -->
+        <section id="all-products">
+            <h2>Todos os Produtos</h2>
+            <div id="product-list" class="product-list">
+                <!-- Produtos serão carregados aqui pelo JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-links">
+            <a href="#">Políticas de Privacidade</a>
+            <a href="#">Termos de Serviço</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a>
+            <a href="#">Twitter</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+        </div>
+        <p>&copy; 2024 ShopAll. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/all-products.js"></script>
+</body>
+</html>

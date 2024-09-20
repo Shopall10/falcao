@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - ShopAll</title>
+    <link rel="stylesheet" href="css/administrador.css">
+</head>
+<body>
+    <header>
+        <h1>ShopAll - Admin</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="admin.html">Admin</a></li>
+                <li><a href="settings.html">Configurações</a></li>
+                <li><a href="help.html">Ajuda</a></li>
+                <li><a href="logout.html">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="admin">
+        <h2>Painel do Administrador</h2>
+        <div class="admin-section">
+            <h3>Gerenciar Usuários</h3>
+            <table id="pending-users">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Estado</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Usuários pendentes serão carregados aqui -->
+                </tbody>
+            </table>
+        </div>
+        <div class="admin-section">
+            <h3>Gerenciar Produtos</h3>
+            <table id="products">
+                <thead>
+                    <tr>
+                        <th>Nome do Produto</th>
+                        <th>Categoria</th>
+                        <th>Preço</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Produtos serão carregados aqui -->
+                </tbody>
+            </table>
+        </div>
+        <div class="admin-section">
+            <h3>Gerenciar Todos os Usuários</h3>
+            <table id="all-users">
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Email</th>
+                        <th>Ação</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Todos os usuários serão carregados aqui, é aque onde quero que apareça os usuario ja cadastrados e podendo fazer login -->
+                </tbody>
+            </table>
+        </div>
+        <div class="admin-section">
+            <h3>Relatórios e Análises</h3>
+            <!-- Relatórios e gráficos -->
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Política de Privacidade</a> | 
+            <a href="#">Termos de Uso</a>
+        </div>
+        <div class="social-media">
+            <a href="#">Facebook</a> | 
+            <a href="#">Twitter</a> | 
+            <a href="#">Instagram</a>
+        </div>
+        <p>&copy; 2024 ShopAll</p>
+    </footer>
+
+    <script src="js/admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopAll - Plataforma de Gestão de Vendas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="imagens/DALL·E 2024-09-20 23.57.08 - A very simple and minimalistic logo design featuring an 'S' in the center, using a color palette of purple and cream. Below the 'S', the text 'Shop_Al.webp" alt="Logo da ShopAll"></a>
+            
+        </div>
+        <nav>
+            <div class="menu-icon" onclick="toggleMenu()">&#9776;</div>
+            <ul id="nav-links">
+                <li><a href="all-products.html">Produtos</a></li>
+                <li><a href="admin-login.html">Área do Administrador</a></li>
+                <li><a href="settings.html">Configurações</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+                <li><a href="login.html">Login</a></li>
+            </ul>
+        </nav>
+        <!-- Área de Pesquisa -->
+        <div id="search-bar">
+            <input type="text" placeholder="Pesquisar produtos...">
+            <button>Pesquisar</button>
+        </div>
+    </header>
+
+    <!-- Área Principal -->
+    <main>
+        <!-- Seção de Boas-Vindas -->
+        <section id="hero">
+            <h1>Bem-vindo ao ShopAll</h1>
+            <p>A melhor plataforma para comprar e vender produtos.</p>
+            <a href="all-products.html" class="btn">Explore Agora</a>
+        </section>
+
+        <!-- Produtos Filtrados -->
+        <section id="filtered-products">
+            <h2>Resultados da Pesquisa</h2>
+            <div id="filtered-list" class="product-list">
+                <!-- Produtos filtrados serão exibidos aqui -->
+            </div>
+        </section>
+        
+        <!-- Produtos Recentes -->
+        <section id="recent-products">
+            <h2>Produtos Recentes</h2>
+            <div id="product-list" class="product-list">
+                <!-- Produtos serão carregados aqui pelo JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-links">
+            <a href="privacy-policy.html">Políticas de Privacidade</a>
+            <a href="#">Termos de Serviço</a>
+        </div>
+        <div class="social-media">
+            <a href="https://www.fb.com/l/6lp1kJRRR" target="_blank" rel="noopener noreferrer">Facebook</a>
+            <a href="https://twitter.com/sua-pagina" target="_blank" rel="noopener noreferrer">Twitter</a>
+            <a href="https://www.instagram.com/invites/contact/?igsh=m0xwxsr7ysvl&utm_content=vvt9fel" target="_blank" rel="noopener noreferrer">Instagram</a>
+            <a href="https://www.linkedin.com/company/sua-pagina" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+        </div>
+        <p>&copy; 2024 ShopAll. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,162 @@
+/* Estilos Gerais do Admin */
+#admin {
+    width: 100%;
+    max-width: 1200px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#admin h2 {
+    text-align: center;
+    color: #0d6efd;
+    margin-bottom: 30px;
+}
+/* Estilos do Header */
+header {
+    background-color: #0d6efd; /* Cor de fundo azul */
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    border-bottom: 2px solid #0056b3; /* Linha de separação mais escura */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+header nav {
+    margin-top: 10px;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+header nav ul li a:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    color: #ffffff;
+}
+
+/* Estilos do Breadcrumb (se aplicável) */
+header .breadcrumb {
+    margin-top: 10px;
+    font-size: 0.9em;
+}
+
+header .breadcrumb a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header .breadcrumb a:hover {
+    text-decoration: underline;
+}
+
+/* Seções do Admin */
+.admin-section {
+    margin-bottom: 30px;
+}
+
+.admin-section h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Tabelas do Admin */
+.admin-section table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.admin-section table th,
+.admin-section table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+.admin-section table th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.admin-section table td button.btn {
+    background-color: #0d6efd;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 2px;
+}
+
+.admin-section table td button.btn:hover {
+    background-color: #0056b3;
+}
+
+.admin-section table td button.delete {
+    background-color: #dc3545;
+}
+
+.admin-section table td button.delete:hover {
+    background-color: #c82333;
+}
+
+/* Estilos dos Relatórios e Análises */
+.admin-section .reports {
+    margin-top: 20px;
+}
+
+.admin-section .reports h4 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Estilos do Footer */
+footer {
+    background-color: #0d6efd;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .footer-links a:hover {
+    text-decoration: underline;
+}
+
+footer .social-media a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+}
